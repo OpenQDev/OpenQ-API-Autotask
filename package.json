@@ -1,0 +1,20 @@
+{
+	"name": "OpenQ-API-Autotask",
+	"version": "1.0.0",
+	"description": "",
+	"main": "dist/index.js",
+	"scripts": {
+		"start": "node index.js",
+		"push:development": "defender-autotask update-code 02ce58cb-a228-40af-a727-4207ae81ec99 ."
+	},
+	"keywords": [],
+	"author": "",
+	"license": "MIT",
+	"devDependencies": {
+		"dotenv": "^8.2.0"
+	},
+	"dependencies": {
+		"axios": "^0.27.2",
+		"express": "^4.18.1"
+	}
+}
